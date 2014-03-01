@@ -1,0 +1,17 @@
+Package: com.jmjeong.PlanBeQuickAdd
+Name: PlanBe QuickAdd
+Version: 1.0-1
+Description: PlanBe QuickAdd for libactivator
+Section: System
+Depends: firmware (>= 5.0), mobilesubstrate, libactivator
+Conflicts: 
+Replaces: 
+Priority: optional
+Architecture: iphoneos-arm
+Author: Jaemok Jeong
+dev: 
+Homepage: 
+Depiction: 
+Maintainer: Jaemok Jeong
+Icon: Icon-small
+
