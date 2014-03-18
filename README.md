@@ -2,7 +2,7 @@
 
 PlanBe QuickAdd for libactivator (Cydia Tweak)
 
-![](http://farm4.staticflickr.com/3666/12852872833_729080352f.jpg)
+![](http://farm3.staticflickr.com/2861/13236950633_d22c8bc7ee_o.png)
 
 ## Installation
 
