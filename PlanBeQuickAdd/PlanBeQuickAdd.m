@@ -48,7 +48,7 @@
 - (void)activator:(LAActivator *)activator receiveEvent:(LAEvent *)event
 {
     if (!av){
-        av = [[UIAlertView alloc] initWithTitle:@"PlanBe QuickAdd" message:@"" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Events", @"Tasks", nil];
+        av = [[UIAlertView alloc] initWithTitle:@"PlanBe QuickAdd" message:@"15 title @home /work" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Event", @"Task", nil];
         av.alertViewStyle = UIAlertViewStylePlainTextInput;
         [av show];
         [event setHandled:YES];
@@ -94,7 +94,7 @@
 {
 	@autoreleasepool
 	{
-		[[LAActivator sharedInstance] registerListener:[self new] forName:@"com.jmjeong.PlanBeQuickAdd"];
+		[[LAActivator sharedInstance] registerListener:[self new] forName:@"com.jmjeong.planbequickadd"];
 	}
 }
 

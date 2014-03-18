@@ -9,7 +9,7 @@
 		<string>lockscreen</string>
 	</array>
 	<key>description</key>
-	<string>Add Events or Tasks using PlanBe app</string>
+	<string>Add Event or Task using PlanBe</string>
 	<key>title</key>
 	<string>PlanBe QuickAdd</string>
 </dict>

@@ -6,8 +6,8 @@ PlanBe QuickAdd for libactivator (Cydia Tweak)
 
 ## Installation
 
-- add http://cydia.myrepospace.com/jmjeong/ in your sources
 - install **PlanBe QuickAdd**
+- Set launch key using Activator
 
 ## License 
 

@@ -7,151 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D5CE81FC18C1F24400F11D14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CE81FB18C1F24400F11D14 /* Foundation.framework */; };
-		D5CE81FE18C1F24400F11D14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CE81FD18C1F24400F11D14 /* UIKit.framework */; };
-		D5CE820718C1F24400F11D14 /* PlanBeQuickAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = D5CE820618C1F24400F11D14 /* PlanBeQuickAdd.m */; };
-		D5CE821818C1F29000F11D14 /* libactivator.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D5CE821718C1F29000F11D14 /* libactivator.dylib */; };
+		D55005DB18D84739003A18C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55005DA18D84739003A18C3 /* Foundation.framework */; };
+		D55005DD18D84739003A18C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D55005DC18D84739003A18C3 /* UIKit.framework */; };
+		D55005E618D84739003A18C3 /* planbequickadd.m in Sources */ = {isa = PBXBuildFile; fileRef = D55005E518D84739003A18C3 /* planbequickadd.m */; };
+		D55005F718D84F0E003A18C3 /* libactivator.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D55005F618D84F0E003A18C3 /* libactivator.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D5CE81F818C1F24400F11D14 /* PlanBeQuickAdd.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = PlanBeQuickAdd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5CE81FB18C1F24400F11D14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D5CE81FD18C1F24400F11D14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		D5CE820218C1F24400F11D14 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
-		D5CE820318C1F24400F11D14 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
-		D5CE820518C1F24400F11D14 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
-		D5CE820618C1F24400F11D14 /* PlanBeQuickAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlanBeQuickAdd.m; sourceTree = "<group>"; };
-		D5CE820B18C1F24400F11D14 /* PlanBeQuickAdd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = PlanBeQuickAdd.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/PlanBeQuickAdd.plist; sourceTree = "<group>"; };
-		D5CE820F18C1F24400F11D14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Package/Library/Activator/Listeners/com.jmjeong.PlanBeQuickAdd/Info.plist; sourceTree = "<group>"; };
-		D5CE821718C1F29000F11D14 /* libactivator.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libactivator.dylib; path = ../../../../../opt/iOSOpenDev/lib/libactivator.dylib; sourceTree = "<group>"; };
-		D5CE821918C1F5E100F11D14 /* Icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-small.png"; sourceTree = "<group>"; };
-		D5CE821A18C1F5EB00F11D14 /* Icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-small@2x.png"; sourceTree = "<group>"; };
+		D55005D718D84739003A18C3 /* planbequickadd.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = planbequickadd.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		D55005DA18D84739003A18C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D55005DC18D84739003A18C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D55005E118D84739003A18C3 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		D55005E218D84739003A18C3 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		D55005E418D84739003A18C3 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		D55005E518D84739003A18C3 /* planbequickadd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = planbequickadd.m; sourceTree = "<group>"; };
+		D55005EA18D84739003A18C3 /* planbequickadd.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = planbequickadd.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/planbequickadd.plist; sourceTree = "<group>"; };
+		D55005EE18D84739003A18C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = Package/Library/Activator/Listeners/com.jmjeong.planbequickadd/Info.plist; sourceTree = "<group>"; };
+		D55005EF18D84739003A18C3 /* Icon-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-small.png"; path = "Package/Library/Activator/Listeners/com.jmjeong.planbequickadd/Icon-small.png"; sourceTree = "<group>"; };
+		D55005F018D84739003A18C3 /* Icon-small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-small@2x.png"; path = "Package/Library/Activator/Listeners/com.jmjeong.planbequickadd/Icon-small@2x.png"; sourceTree = "<group>"; };
+		D55005F618D84F0E003A18C3 /* libactivator.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libactivator.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D5CE81F418C1F24400F11D14 /* Frameworks */ = {
+		D55005D318D84739003A18C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5CE821818C1F29000F11D14 /* libactivator.dylib in Frameworks */,
-				D5CE81FC18C1F24400F11D14 /* Foundation.framework in Frameworks */,
-				D5CE81FE18C1F24400F11D14 /* UIKit.framework in Frameworks */,
+				D55005DB18D84739003A18C3 /* Foundation.framework in Frameworks */,
+				D55005F718D84F0E003A18C3 /* libactivator.dylib in Frameworks */,
+				D55005DD18D84739003A18C3 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D5CE81EE18C1F24400F11D14 = {
+		D55005CD18D84739003A18C3 = {
 			isa = PBXGroup;
 			children = (
-				D5CE81FF18C1F24400F11D14 /* PlanBeQuickAdd */,
-				D5CE81FA18C1F24400F11D14 /* Frameworks */,
-				D5CE81F918C1F24400F11D14 /* Products */,
+				D55005DE18D84739003A18C3 /* planbequickadd */,
+				D55005D918D84739003A18C3 /* Frameworks */,
+				D55005D818D84739003A18C3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D5CE81F918C1F24400F11D14 /* Products */ = {
+		D55005D818D84739003A18C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE81F818C1F24400F11D14 /* PlanBeQuickAdd.dylib */,
+				D55005D718D84739003A18C3 /* planbequickadd.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D5CE81FA18C1F24400F11D14 /* Frameworks */ = {
+		D55005D918D84739003A18C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE821718C1F29000F11D14 /* libactivator.dylib */,
-				D5CE81FB18C1F24400F11D14 /* Foundation.framework */,
-				D5CE81FD18C1F24400F11D14 /* UIKit.framework */,
+				D55005F618D84F0E003A18C3 /* libactivator.dylib */,
+				D55005DA18D84739003A18C3 /* Foundation.framework */,
+				D55005DC18D84739003A18C3 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		D5CE81FF18C1F24400F11D14 /* PlanBeQuickAdd */ = {
+		D55005DE18D84739003A18C3 /* planbequickadd */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE820618C1F24400F11D14 /* PlanBeQuickAdd.m */,
-				D5CE820018C1F24400F11D14 /* Package */,
-				D5CE820418C1F24400F11D14 /* Supporting Files */,
+				D55005E518D84739003A18C3 /* planbequickadd.m */,
+				D55005DF18D84739003A18C3 /* Package */,
+				D55005E318D84739003A18C3 /* Supporting Files */,
 			);
-			path = PlanBeQuickAdd;
+			path = planbequickadd;
 			sourceTree = "<group>";
 		};
-		D5CE820018C1F24400F11D14 /* Package */ = {
+		D55005DF18D84739003A18C3 /* Package */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE820118C1F24400F11D14 /* DEBIAN */,
-				D5CE820818C1F24400F11D14 /* Library */,
+				D55005E018D84739003A18C3 /* DEBIAN */,
+				D55005E718D84739003A18C3 /* Library */,
 			);
 			name = Package;
 			sourceTree = "<group>";
 		};
-		D5CE820118C1F24400F11D14 /* DEBIAN */ = {
+		D55005E018D84739003A18C3 /* DEBIAN */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE820218C1F24400F11D14 /* control.txt */,
-				D5CE820318C1F24400F11D14 /* control */,
+				D55005E118D84739003A18C3 /* control.txt */,
+				D55005E218D84739003A18C3 /* control */,
 			);
 			name = DEBIAN;
 			sourceTree = "<group>";
 		};
-		D5CE820418C1F24400F11D14 /* Supporting Files */ = {
+		D55005E318D84739003A18C3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE820518C1F24400F11D14 /* PackageVersion.plist */,
+				D55005E418D84739003A18C3 /* PackageVersion.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D5CE820818C1F24400F11D14 /* Library */ = {
+		D55005E718D84739003A18C3 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE820918C1F24400F11D14 /* MobileSubstrate */,
-				D5CE820C18C1F24400F11D14 /* Activator */,
+				D55005E818D84739003A18C3 /* MobileSubstrate */,
+				D55005EB18D84739003A18C3 /* Activator */,
 			);
 			name = Library;
 			sourceTree = "<group>";
 		};
-		D5CE820918C1F24400F11D14 /* MobileSubstrate */ = {
+		D55005E818D84739003A18C3 /* MobileSubstrate */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE820A18C1F24400F11D14 /* DynamicLibraries */,
+				D55005E918D84739003A18C3 /* DynamicLibraries */,
 			);
 			name = MobileSubstrate;
 			sourceTree = "<group>";
 		};
-		D5CE820A18C1F24400F11D14 /* DynamicLibraries */ = {
+		D55005E918D84739003A18C3 /* DynamicLibraries */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE820B18C1F24400F11D14 /* PlanBeQuickAdd.plist */,
+				D55005EA18D84739003A18C3 /* planbequickadd.plist */,
 			);
 			name = DynamicLibraries;
 			sourceTree = "<group>";
 		};
-		D5CE820C18C1F24400F11D14 /* Activator */ = {
+		D55005EB18D84739003A18C3 /* Activator */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE820D18C1F24400F11D14 /* Listeners */,
+				D55005EC18D84739003A18C3 /* Listeners */,
 			);
 			name = Activator;
 			sourceTree = "<group>";
 		};
-		D5CE820D18C1F24400F11D14 /* Listeners */ = {
+		D55005EC18D84739003A18C3 /* Listeners */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE820E18C1F24400F11D14 /* ___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___ */,
+				D55005ED18D84739003A18C3 /* ___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___ */,
 			);
 			name = Listeners;
 			sourceTree = "<group>";
 		};
-		D5CE820E18C1F24400F11D14 /* ___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___ */ = {
+		D55005ED18D84739003A18C3 /* ___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___ */ = {
 			isa = PBXGroup;
 			children = (
-				D5CE821A18C1F5EB00F11D14 /* Icon-small@2x.png */,
-				D5CE821918C1F5E100F11D14 /* Icon-small.png */,
-				D5CE820F18C1F24400F11D14 /* Info.plist */,
+				D55005EE18D84739003A18C3 /* Info.plist */,
+				D55005EF18D84739003A18C3 /* Icon-small.png */,
+				D55005F018D84739003A18C3 /* Icon-small@2x.png */,
 			);
 			name = "___VARIABLE_bundleIdentifierPrefix:bundleIdentifier___.___VARIABLE_productName:RFC1034Identifier___";
 			sourceTree = "<group>";
@@ -159,7 +159,7 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		D5CE81F518C1F24400F11D14 /* Headers */ = {
+		D55005D418D84739003A18C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -169,51 +169,51 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D5CE81F718C1F24400F11D14 /* PlanBeQuickAdd */ = {
+		D55005D618D84739003A18C3 /* planbequickadd */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5CE821418C1F24400F11D14 /* Build configuration list for PBXNativeTarget "PlanBeQuickAdd" */;
+			buildConfigurationList = D55005F318D84739003A18C3 /* Build configuration list for PBXNativeTarget "planbequickadd" */;
 			buildPhases = (
-				D5CE81F318C1F24400F11D14 /* Sources */,
-				D5CE81F418C1F24400F11D14 /* Frameworks */,
-				D5CE81F518C1F24400F11D14 /* Headers */,
-				D5CE81F618C1F24400F11D14 /* ShellScript */,
+				D55005D218D84739003A18C3 /* Sources */,
+				D55005D318D84739003A18C3 /* Frameworks */,
+				D55005D418D84739003A18C3 /* Headers */,
+				D55005D518D84739003A18C3 /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PlanBeQuickAdd;
-			productName = PlanBeQuickAdd;
-			productReference = D5CE81F818C1F24400F11D14 /* PlanBeQuickAdd.dylib */;
+			name = planbequickadd;
+			productName = planbequickadd;
+			productReference = D55005D718D84739003A18C3 /* planbequickadd.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D5CE81EF18C1F24400F11D14 /* Project object */ = {
+		D55005CE18D84739003A18C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 			};
-			buildConfigurationList = D5CE81F218C1F24400F11D14 /* Build configuration list for PBXProject "PlanBeQuickAdd" */;
+			buildConfigurationList = D55005D118D84739003A18C3 /* Build configuration list for PBXProject "planbequickadd" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = D5CE81EE18C1F24400F11D14;
-			productRefGroup = D5CE81F918C1F24400F11D14 /* Products */;
+			mainGroup = D55005CD18D84739003A18C3;
+			productRefGroup = D55005D818D84739003A18C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D5CE81F718C1F24400F11D14 /* PlanBeQuickAdd */,
+				D55005D618D84739003A18C3 /* planbequickadd */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		D5CE81F618C1F24400F11D14 /* ShellScript */ = {
+		D55005D518D84739003A18C3 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,21 +229,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D5CE81F318C1F24400F11D14 /* Sources */ = {
+		D55005D218D84739003A18C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5CE820718C1F24400F11D14 /* PlanBeQuickAdd.m in Sources */,
+				D55005E618D84739003A18C3 /* planbequickadd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		D5CE821218C1F24400F11D14 /* Debug */ = {
+		D55005F118D84739003A18C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
@@ -273,10 +272,9 @@
 			};
 			name = Debug;
 		};
-		D5CE821318C1F24400F11D14 /* Release */ = {
+		D55005F218D84739003A18C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
 				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
@@ -298,7 +296,7 @@
 			};
 			name = Release;
 		};
-		D5CE821518C1F24400F11D14 /* Debug */ = {
+		D55005F418D84739003A18C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -307,7 +305,7 @@
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/opt/iOSOpenDev/lib,
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
@@ -320,7 +318,7 @@
 			};
 			name = Debug;
 		};
-		D5CE821618C1F24400F11D14 /* Release */ = {
+		D55005F518D84739003A18C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
@@ -329,7 +327,7 @@
 				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/opt/iOSOpenDev/lib,
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				iOSOpenDevBuildPackageOnAnyBuild = NO;
@@ -345,24 +343,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D5CE81F218C1F24400F11D14 /* Build configuration list for PBXProject "PlanBeQuickAdd" */ = {
+		D55005D118D84739003A18C3 /* Build configuration list for PBXProject "planbequickadd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5CE821218C1F24400F11D14 /* Debug */,
-				D5CE821318C1F24400F11D14 /* Release */,
+				D55005F118D84739003A18C3 /* Debug */,
+				D55005F218D84739003A18C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5CE821418C1F24400F11D14 /* Build configuration list for PBXNativeTarget "PlanBeQuickAdd" */ = {
+		D55005F318D84739003A18C3 /* Build configuration list for PBXNativeTarget "planbequickadd" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5CE821518C1F24400F11D14 /* Debug */,
-				D5CE821618C1F24400F11D14 /* Release */,
+				D55005F418D84739003A18C3 /* Debug */,
+				D55005F518D84739003A18C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D5CE81EF18C1F24400F11D14 /* Project object */;
+	rootObject = D55005CE18D84739003A18C3 /* Project object */;
 }
